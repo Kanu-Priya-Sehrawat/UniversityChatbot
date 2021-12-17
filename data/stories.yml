@@ -1,0 +1,64 @@
+version: "3.0"
+
+stories:
+  - story: greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_what_next
+
+  - story: campus path
+    steps:
+      - intent: campus_facilities
+      - action: utter_campus_facilities
+      - action: utter_what_next
+
+  - story: courses path
+    steps:
+      - intent: courses
+      - action: utter_courses
+      
+  - story: about path
+    steps:
+      - intent: university_info
+      - action: utter_university_info
+      - action: utter_what_next
+      
+  - story: application path
+    steps:
+      - intent: application
+      - action: utter_courses
+       
+  - story: post graduation path
+    steps:
+      - intent: post_graduation
+      - action: utter_post_graduation
+      - action: utter_what_next
+  
+  - story: engineering path
+    steps:
+      - intent: engineering
+      - action: utter_engineering
+      - action: utter_what_next
+
+  - story: business path
+    steps:
+      - intent: business
+      - action: utter_business
+      - action: utter_what_next
+  
+  - story: law path
+    steps:
+      - intent: law
+      - action: utter_law
+      - action: utter_what_next
+
+  - story: graduation path
+    steps:
+      - intent: graduation
+      - action: utter_graduation
+      
+  - story: what next path
+    steps:
+      - intent: what_next
+      - action: utter_what_next

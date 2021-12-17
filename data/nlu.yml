@@ -1,0 +1,135 @@
+version: "3.0"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: courses
+    examples: |
+      - tell me about different courses
+      - what are various courses
+      - courses
+      - professional course
+      - bachelor course
+      - master course
+
+  - intent: application
+    examples: |
+      - how to take admission 
+      - who's eligible
+      - application criteria
+      - how to appply
+      - application
+
+  - intent: campus_facilities
+    examples: |
+      - different facility
+      - campus facility
+      - facility
+      - faclity
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: graduation
+    examples: |
+      - graduate
+      - Graduation
+      - B.Tech
+      - BALLB
+      - BBALLB
+      - B.Sc
+
+  - intent: post_graduation
+    examples: |
+      - post graduate
+      - post grad
+      - M.Tech
+      - MBA
+      - M.Sc
+      - LLM 
+
+  - intent: university_info
+    examples: |
+      - about
+      - about university
+      - university
+      - tell something about university
+      - how's the university
+      - when the university established
+
+  - intent: engineering
+    examples: |
+      - engineer
+      - enginerrein
+      - engineering
+      - engine
+
+  - intent: business
+    examples: |
+      - busness
+      - business
+      - BBA
+      - MBA
+  
+  - intent: law
+    examples: |
+      - law
+      - lawyer
+      - llb
+
+  - intent: what_next
+    examples: |
+      - what next
+      - next
+      - another query
+      - next query

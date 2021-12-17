@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+  </head>
+  <body>
+    <style>
+      .rw-conversation-container .rw-header {
+        background-color: #041E54;
+      }
+      /* .rw-conversation-container .rw-messages-container .rw-message .rw-response {
+        background-color: rgb(248, 179, 151);
+      }
+      .rw-conversation-container .rw-messages-container .rw-replies .rw-response {
+        background-color: rgb(248, 179, 151);
+      }
+      .rw-conversation-container .rw-messages-container .rw-sender .rw-new-message {
+        background-color: rgb(46, 40, 37);
+      } */
+
+    </style>
+
+    <script>
+      !(function () {
+        let e = document.createElement("script"),
+          t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+          // Replace 1.x.x with the version that you want
+          (e.async = !0),
+          (e.onload = () => {
+            window.WebChat.default(
+              {
+                initPayload: "/greet",
+                customData: { language: "en" },
+                socketUrl: "http://localhost:5005",
+                title: "University Bot",
+                subtitle: "I am here to help you",
+                // add other props here
+              },
+              null
+            );
+          }),
+          t.insertBefore(e, t.firstChild);
+      })();
+    </script>
+  </body>
+</html>

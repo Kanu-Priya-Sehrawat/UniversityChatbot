@@ -1,0 +1,10 @@
+[
+  {
+    "text": "MBA",
+    "intent": "business",
+    "intent_prediction": {
+      "name": "post_graduation",
+      "confidence": 0.5102502703666687
+    }
+  }
+]

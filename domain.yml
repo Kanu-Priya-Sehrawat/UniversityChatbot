@@ -1,0 +1,105 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - courses
+  - application
+  - campus_facilities
+  - bot_challenge
+  - graduation
+  - post_graduation
+  - university_info
+  - engineering
+  - business
+  - law
+  - what_next
+ 
+responses:
+  utter_greet:
+  - text: "Hey! Welcome to GGSIPU."
+    image: "http://www.ipu.ac.in/style/head_foot_img/220px-Guru_Gobind_Singh_Indraprastha_University12.png"
+
+  utter_what_next:
+  - text: "Please write your question or choose one of the options below."
+    buttons:
+      - title: "About university"
+        payload: "university_info"
+      - title: "Courses"
+        payload: "courses"
+      - title: "Criteria for Application"
+        payload: "courses"
+      - title: "Facilities"
+        payload: "campus_facilities"
+    
+  utter_courses:
+  - text: "We guarantee you that choosing us will elevate your learning and career graph. Kindly select for which qualification you are curious."
+    buttons:
+      - title: "Graduation"
+        payload: "graduation"
+      - title: "Post-Graduation"
+        payload: "post_graduation"
+
+  utter_graduation:
+  - text: "Let me know your choice of discipline."
+    buttons:
+      - title: "Engineering"
+        payload: "engineering"
+      - title: "Business"
+        payload: "business"
+      - title: "Law"
+        payload: "law"
+
+
+  utter_engineering:
+  - text: "There are various programmes in Engineering like Computer Science, Information technology, Electronics and Communication technology, Biotechnology, etc."
+    image: "https://media.istockphoto.com/photos/cyber-security-web-development-and-work-in-it-concept-picture-id1289411982?b=1&k=20&m=1289411982&s=170667a&w=0&h=0R3OXR4L6LOGphYA3sul4bWQwpGj_DSl05ENiP2kRZg="
+
+
+  utter_law:
+  - text: "There are various programmes like  B.A., LL.B. (H) Five Year Course and  B.B.A., LL.B. (H) Five Year Course"
+    image: "https://media.istockphoto.com/photos/image-lawyer-businessman-sitting-at-the-office-with-a-woman-customer-picture-id1330020430?b=1&k=20&m=1330020430&s=170667a&w=0&h=Dx1xlAKoE_Heyr-y89ufCIN1iaHxSVGQs0M8V9r157U="
+
+
+  utter_business:
+  - text: "There are various programmes like BBA, MBA, etc."
+    image: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDl8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+
+
+  utter_campus_facilities:
+  - text: "There are so many facility provided by the university like hostel(girls and boys), library, sports, swimming pool, etc."
+    image: "https://images.unsplash.com/photo-1494177310973-4841f7d5a882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHNwb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+
+
+  utter_university_info:
+  - text: "Guru Gobind Singh Indraprastha University, formerly Indraprastha University (IP or IPU), is a state university located in Delhi, India. It was established in 1998 as a teaching-cum-affiliating university."
+  - text: "The university runs almost 50 courses of study as diverse as engineering, technology, business management, medicine, pharmacy, nursing, education, and law.[7][8] There are more than 120 colleges affiliated to it which are run according to the rules and regulation set by the university."
+
+  utter_post_graduation:
+  - text: "There are various programmes like MBA, M.Tech, M.Ed, M.Sc., etc."
+    image: "https://media.istockphoto.com/photos/young-latin-student-girl-smiling-happy-holding-folder-at-the-city-picture-id1288634246?b=1&k=20&m=1288634246&s=170667a&w=0&h=daU-ru6qw6HYBtHlutCImUtrBWVzZ2v6WzjiV7tdz6w="
+
+  utter_affirm:
+  - text: "How may help you again?"
+    image: "https://media.giphy.com/media/xULW8t4AwvbzYWIWxq/giphy.gif"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot."
+
+  utter_default:
+    - text: "Sorry, for the inconvenience but the system does not understand what you are saying"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
