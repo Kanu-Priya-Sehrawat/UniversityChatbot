@@ -2,79 +2,79 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
+- story: course path 
   steps:
   - user: |
       hello there!
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+      courses
+    intent: courses
+  - action: utter_courses
 
-- story: happy path 2
+- story: about path 
   steps:
   - user: |
       hello there!
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+      About university
+    intent: university_info
+  - action: utter_university_info
   - user: |
       bye-bye!
     intent: goodbye
   - action: utter_goodbye
 
-- story: sad path 1
+- story: engineering path 
   steps:
   - user: |
       hello
     intent: greet
   - action: utter_greet
   - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+      is there engineering available
+    intent: engineering
+  - action: utter_engineering
+  - action: utter_what_next
   - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
+      is there law course available
+    intent: law
+  - action: utter_law
 
-- story: sad path 2
+- story: post graduate path 
   steps:
   - user: |
       hello
     intent: greet
   - action: utter_greet
   - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+      is M.tech 
+    intent: post_graduation
+  - action: utter_post_graduation
+  - action: utter_what_next
   - user: |
-      not really
-    intent: deny
+      nothing 
+    intent: bye
   - action: utter_goodbye
 
-- story: sad path 3
+- story: univesity info path
   steps:
   - user: |
       hi
     intent: greet
   - action: utter_greet
   - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+      know about university
+    intent: university_info
+  - action: utter_university_info
+  - action: utter_what_next
   - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
+      course available
+    intent: courses
+  - action: utter_courses
 
 - story: say goodbye
   steps:

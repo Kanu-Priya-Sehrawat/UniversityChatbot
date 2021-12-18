@@ -1,51 +1,50 @@
 version: "3.0"
 stories:
-- story: happy path 1 (.\tests\test_stories.yml)
+- story: course path (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_what_next
-  - intent: mood_great  # predicted: bot_challenge: amazing
-  - action: utter_happy  # predicted: action_default_fallback
-- story: happy path 2 (.\tests\test_stories.yml)
+  - intent: courses
+  - action: utter_courses
+- story: about path (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_what_next
-  - intent: mood_great  # predicted: bot_challenge: amazing
-  - action: utter_happy  # predicted: action_default_fallback
+  - intent: university_info
+  - action: utter_university_info  # predicted: action_unlikely_intent
+  - action: action_listen  # predicted: utter_what_next
   - intent: goodbye
   - action: utter_goodbye
-- story: sad path 1 (.\tests\test_stories.yml)
+- story: engineering path (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_what_next
-  - intent: mood_unhappy  # predicted: deny: not good
-  - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_listen
+  - intent: engineering
+  - action: utter_engineering
+  - action: utter_what_next
+  - intent: law  # predicted: courses: is there law course available
+  - action: utter_law
   - action: action_listen  # predicted: utter_what_next
-  - intent: affirm
-  - action: utter_happy  # predicted: action_default_fallback
-- story: sad path 2 (.\tests\test_stories.yml)
+- story: post graduate path (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_what_next
-  - intent: mood_unhappy  # predicted: deny: not good
-  - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_listen
-  - action: action_listen  # predicted: utter_what_next
-  - intent: deny
-  - action: utter_goodbye  # predicted: utter_campus_facilities
-- story: sad path 3 (.\tests\test_stories.yml)
+  - intent: post_graduation
+  - action: utter_post_graduation
+  - action: utter_what_next
+  - intent: bye  # predicted: deny: nothing
+  - action: utter_goodbye  # predicted: action_default_fallback
+- story: univesity info path (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
   - action: action_listen  # predicted: utter_what_next
-  - intent: mood_unhappy  # predicted: application: very terrible
-  - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_listen
-  - action: action_listen  # predicted: utter_what_next
-  - intent: deny
-  - action: utter_goodbye  # predicted: utter_campus_facilities
+  - intent: university_info
+  - action: utter_university_info  # predicted: action_unlikely_intent
+  - action: utter_what_next
+  - intent: courses
+  - action: utter_courses

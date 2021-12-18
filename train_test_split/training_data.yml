@@ -1,0 +1,116 @@
+version: "3.0"
+nlu:
+- intent: law
+  examples: |
+    - lawyer
+    - llb
+- intent: bot_challenge
+  examples: |
+    - am I talking to a bot?
+    - are you a human?
+    - am I talking to a human?
+- intent: business
+  examples: |
+    - MBA
+    - busness
+    - business
+- intent: what_next
+  examples: |
+    - another query
+    - what next
+    - next
+- intent: affirm
+  examples: |
+    - of course
+    - y
+    - indeed
+    - that sounds good
+    - yes
+- intent: graduation
+  examples: |
+    - graduate
+    - BBALLB
+    - B.Tech
+    - Graduation
+    - BALLB
+- intent: post_graduation
+  examples: |
+    - M.Tech
+    - LLM
+    - MBA
+    - post graduate
+    - M.Sc
+- intent: university_info
+  examples: |
+    - about
+    - how's the university
+    - about university
+    - when the university established
+    - university
+- intent: deny
+  examples: |
+    - not really
+    - n
+    - no way
+    - never
+    - don't like that
+- intent: engineering
+  examples: |
+    - it
+    - cse
+    - engineering
+    - b tech
+    - enginerrein
+    - engineer
+- intent: campus_facilities
+  examples: |
+    - hostel
+    - riding
+    - swimming pool
+    - campus facility
+    - sport
+    - faclity
+- intent: application
+  examples: |
+    - who's eligible
+    - application criteria
+    - application
+    - eligi
+    - apliction
+    - admis
+    - apple
+    - how to take admission
+- intent: goodbye
+  examples: |
+    - see you later
+    - goodbye
+    - bye bye
+    - cu
+    - cee you later
+    - bi
+    - bye
+    - good by
+- intent: courses
+  examples: |
+    - master course
+    - what are various courses
+    - is btech available
+    - professional course
+    - tell me about different courses
+    - graduation courses
+    - courses
+    - gradtn
+    - cor
+- intent: greet
+  examples: |
+    - goodevening
+    - hey dude
+    - hey there
+    - goodmorning
+    - hey
+    - moin
+    - hello
+    - good afternoon
+    - hi
+    - hello there
+    - let's go

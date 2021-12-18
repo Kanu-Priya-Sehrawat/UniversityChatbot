@@ -1,0 +1,53 @@
+version: "3.0"
+nlu:
+- intent: law
+  examples: |
+    - law
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+- intent: business
+  examples: |
+    - BBA
+- intent: what_next
+  examples: |
+    - next query
+- intent: affirm
+  examples: |
+    - correct
+- intent: graduation
+  examples: |
+    - B.Sc
+- intent: post_graduation
+  examples: |
+    - post grad
+- intent: university_info
+  examples: |
+    - tell something about university
+- intent: deny
+  examples: |
+    - no
+    - I don't think so
+- intent: engineering
+  examples: |
+    - engine
+- intent: campus_facilities
+  examples: |
+    - different facility
+    - facility
+- intent: application
+  examples: |
+    - how to appply
+- intent: goodbye
+  examples: |
+    - have a nice day
+    - see you around
+    - good night
+- intent: courses
+  examples: |
+    - cour
+    - bachelor course
+- intent: greet
+  examples: |
+    - good morning
+    - good evening

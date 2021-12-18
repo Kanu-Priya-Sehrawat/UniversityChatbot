@@ -1,33 +1,69 @@
 {
-  "bot_challenge": {
-    "precision": 0.3333333333333333,
-    "recall": 1.0,
-    "f1-score": 0.5,
-    "support": 1
-  },
-  "utter_happy": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3
-  },
-  "mood_unhappy": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3
-  },
-  "utter_goodbye": {
-    "precision": 1.0,
-    "recall": 0.5,
-    "f1-score": 0.6666666666666666,
-    "support": 4
-  },
-  "affirm": {
+  "utter_iamabot": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 1
+  },
+  "utter_what_next": {
+    "precision": 0.3,
+    "recall": 1.0,
+    "f1-score": 0.4615384615384615,
+    "support": 3
+  },
+  "courses": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2
+  },
+  "bye": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "utter_post_graduation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "engineering": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_law": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_engineering": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "post_graduation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 0.5625,
+    "f1-score": 0.72,
+    "support": 16
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
   },
   "goodbye": {
     "precision": 1.0,
@@ -35,25 +71,7 @@
     "f1-score": 1.0,
     "support": 2
   },
-  "action_listen": {
-    "precision": 0.7272727272727273,
-    "recall": 0.5,
-    "f1-score": 0.5925925925925926,
-    "support": 16
-  },
-  "utter_cheer_up": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3
-  },
-  "utter_did_that_help": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3
-  },
-  "utter_iamabot": {
+  "bot_challenge": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -65,40 +83,52 @@
     "f1-score": 1.0,
     "support": 5
   },
-  "mood_great": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2
-  },
-  "deny": {
-    "precision": 0.5,
-    "recall": 1.0,
-    "f1-score": 0.6666666666666666,
-    "support": 2
-  },
-  "utter_greet": {
+  "utter_university_info": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5
+    "support": 2
+  },
+  "utter_goodbye": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3
+  },
+  "law": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "utter_courses": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "university_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
   },
   "micro avg": {
-    "precision": 0.7941176470588235,
-    "recall": 0.5294117647058824,
-    "f1-score": 0.6352941176470589,
+    "precision": 0.8367346938775511,
+    "recall": 0.803921568627451,
+    "f1-score": 0.8200000000000001,
     "support": 51
   },
   "macro avg": {
-    "precision": 0.54004329004329,
-    "recall": 0.5714285714285714,
-    "f1-score": 0.5304232804232805,
+    "precision": 0.8403508771929825,
+    "recall": 0.8541666666666665,
+    "f1-score": 0.8306072874493926,
     "support": 51
   },
   "weighted avg": {
-    "precision": 0.6072489601901366,
-    "recall": 0.5294117647058824,
-    "f1-score": 0.5486564996368917,
+    "precision": 0.9065359477124183,
+    "recall": 0.803921568627451,
+    "f1-score": 0.8216591251885369,
     "support": 51
   },
   "conversation_accuracy": {

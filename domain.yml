@@ -35,7 +35,7 @@ responses:
         payload: "campus_facilities"
     
   utter_courses:
-  - text: "We guarantee you that choosing us will elevate your learning and career graph. Kindly select for which qualification you are curious."
+  - text: "We guarantee you that choosing us will elevate your learning and career graph. \n Kindly select for which qualification you are curious."
     buttons:
       - title: "Graduation"
         payload: "graduation"
@@ -74,8 +74,7 @@ responses:
 
 
   utter_university_info:
-  - text: "Guru Gobind Singh Indraprastha University, formerly Indraprastha University (IP or IPU), is a state university located in Delhi, India. It was established in 1998 as a teaching-cum-affiliating university."
-  - text: "The university runs almost 50 courses of study as diverse as engineering, technology, business management, medicine, pharmacy, nursing, education, and law.[7][8] There are more than 120 colleges affiliated to it which are run according to the rules and regulation set by the university."
+  - text: "Guru Gobind Singh Indraprastha University, formerly Indraprastha University (IP or IPU), is a state university located in Delhi, India. \n It was established in 1998 as a teaching-cum-affiliating university. \n The university runs almost 50 courses of study as diverse as engineering, technology, business management, medicine, pharmacy, nursing, education, and law. \n There are more than 120 colleges affiliated to it which are run according to the rules and regulation set by the university."
 
   utter_post_graduation:
   - text: "There are various programmes like MBA, M.Tech, M.Ed, M.Sc., etc."

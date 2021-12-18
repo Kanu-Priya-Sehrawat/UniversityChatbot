@@ -29,6 +29,7 @@ nlu:
       - see you around
       - bye bye
       - see you later
+      - bi
 
   - intent: affirm
     examples: |
@@ -57,6 +58,11 @@ nlu:
       - professional course
       - bachelor course
       - master course
+      - cour
+      - cor
+      - is btech available 
+      - graduation courses
+      - gradtn
 
   - intent: application
     examples: |
@@ -65,13 +71,21 @@ nlu:
       - application criteria
       - how to appply
       - application
-
+      - apple
+      - apliction
+      - eligi
+      - admis
+      
   - intent: campus_facilities
     examples: |
       - different facility
       - campus facility
       - facility
       - faclity
+      - hostel
+      - sport
+      - swimming pool
+      - riding
 
   - intent: bot_challenge
     examples: |
@@ -113,6 +127,9 @@ nlu:
       - enginerrein
       - engineering
       - engine
+      - b tech
+      - cse
+      - it
 
   - intent: business
     examples: |
