@@ -1,6 +1,6 @@
 # 🦊 | University Chatbot
 > AI Chatbot
-![image](https://user-images.githubusercontent.com/42824659/146613666-228a236a-9e68-44d5-8f97-0ad81612bb6c.png)
+> ![image](https://user-images.githubusercontent.com/42824659/146613666-228a236a-9e68-44d5-8f97-0ad81612bb6c.png)
 
 ## Highlights
 1. This application based on `Rasa framework`
@@ -28,7 +28,7 @@ pip install -r requirements-dev.txt
 pre-commit install
 ```
 ## Operating Commands
-Use ```sh rasa train ``` to train a model.
+Use ``` rasa train ``` to train a model.
 
 Then, to run, first set up your action server in one terminal window:
 ```sh
