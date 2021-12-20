@@ -1,4 +1,4 @@
-# 🦊 | University Chatbot
+# ![image](https://user-images.githubusercontent.com/42824659/146745282-d913d620-0357-452f-8aaa-3b4e35d7569c.png) | University Chatbot
 > AI Chatbot
 > 
 > ![image](https://user-images.githubusercontent.com/42824659/146613666-228a236a-9e68-44d5-8f97-0ad81612bb6c.png)
@@ -44,6 +44,12 @@ Then to talk to the bot, run:
 rasa shell --debug
 ```
 Note that --debug mode will produce a lot of output meant to help you understand how the bot is working under the hood. You can also add this flag to the action server command. To simply talk to the bot, you can remove this flag.
+
+To run model on java
+```sh
+rasa run -m models --enable-api --cors "*"
+```
+
 ## Prerequsite
 * Python virtual environment
 
