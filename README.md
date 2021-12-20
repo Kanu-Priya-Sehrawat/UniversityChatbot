@@ -1,4 +1,4 @@
-# ![image](https://user-images.githubusercontent.com/42824659/146745282-d913d620-0357-452f-8aaa-3b4e35d7569c.png) | University Chatbot
+# University Chatbot
 > AI Chatbot
 > 
 > ![image](https://user-images.githubusercontent.com/42824659/146613666-228a236a-9e68-44d5-8f97-0ad81612bb6c.png)
